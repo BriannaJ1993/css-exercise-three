@@ -8,6 +8,7 @@ body {
   font-size: 10px;
 }
 
+
 .container {
   margin: 0 auto;
   width: 420px;
@@ -21,18 +22,32 @@ nav {
 }
 
 .restaurant-list {
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;/*counts toward width*/
+  border-top: 1px solid #000000;
+  border-right: 1px solid #000000; /*counts toward width*/
+  margin-right: 50px; /*counts toward width*/
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;/*counts toward width*/
+  padding-right: 50px;/*counts toward width*/
   padding-top: 50px;
-  width: 60%;
+  width: 420px;
 }
 
 .location h1 {
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: normal;
 }
 
 .content h3 {
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 530;
   }
 
 .location: hoover
